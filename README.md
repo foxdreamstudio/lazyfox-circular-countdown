@@ -1,1 +1,1 @@
-# React-native Lazyfox-Countdown-circle
+# React-native lazyfox-circular-countdown

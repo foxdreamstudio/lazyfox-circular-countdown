@@ -1,0 +1,44 @@
+{
+  "name": "lazyfox-circular-countdown",
+  "version": "0.2.0",
+  "description": "A responsive countdown circle component for react-native. this component using react-native-svg inspire by my last project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-native run-android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxdreamstudio/lazyfox-circular-countdown.git"
+  },
+  "keywords": [
+    "lazyfox-circular-countdown",
+    "lazyfox circular countdown",
+    "circular countdown",
+    "circular-countdown",
+    "react-native-lazyfox-circular-countdown",
+    "react native lazyfox circular countdown",
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react native component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "lazyfox",
+    "foxdream",
+    "countdown",
+    "circular"
+  ],
+  "author": "Ridwan Foxdream",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxdreamstudio/lazyfox-circular-countdown/issues"
+  },
+  "homepage": "https://github.com/foxdreamstudio/lazyfox-circular-countdown#readme",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.53.1"
+  }
+}

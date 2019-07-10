@@ -4,7 +4,7 @@
   "description": "A responsive countdown circle component for react-native. this component using react-native-svg inspire by my last project.",
   "main": "index.js",
   "scripts": {
-    "test": "react-native run-android",
+    "test": "react-native run-android"
   },
   "dependencies": {
     "react-native-svg": "^9.3.6"

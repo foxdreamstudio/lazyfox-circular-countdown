@@ -1,11 +1,10 @@
 {
   "name": "lazyfox-circular-countdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A responsive countdown circle component for react-native. this component using react-native-svg inspire by my last project.",
   "main": "index.js",
   "scripts": {
     "test": "react-native run-android",
-    "install": "cd ../ && react-native link "
   },
   "dependencies": {
     "react-native-svg": "^9.3.6"

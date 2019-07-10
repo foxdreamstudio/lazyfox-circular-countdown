@@ -1,9 +1,10 @@
 # React-native-component : lazyfox-circular-countdown
-<!--[![version](https://img.shields.io/npm/v/)](https://)-->
-<!--[![downloads](https://img.shields.io/npm/dm/react-native-svg-charts.svg)](https://)-->
+[![version](https://img.shields.io/npm/v/lazyfox-circular-countdown.svg)](https://www.npmjs.com/package/lazyfox-circular-countdown)
+[![downloads](https://img.shields.io/npm/dy/lazyfox-circular-countdown.svg)](https://www.npmjs.com/package/lazyfox-circular-countdown)
 <!--[![foxdream Entertainment](https://www.http://foxdreamstudio.github.io)](https://www.http://foxdreamstudio.github.io)-->
 <!--[![Ridwan Foxdream](https://www.http://foxdreamer.000webhost.com/ridwan)](https://www.http://foxdreamer.000webhost.com/ridwan)-->
 <!--[![license](https://img.shields.io/npm/l/react-native-svg-charts.svg)](https://github.com/foxdreamstudio/lazyfox-circular-countdown/blob/master/LICENSE)-->
+
 
 ## Prerequisites
 

@@ -20,7 +20,7 @@ I made this library motivated by my last project, which requires a component cou
 To install this component to your **react-native project**, please just following this instruction bellow.
 ```bash
 #on your root project, enter command
-$ npm install --save lazyfox-circular-countdown
+$ npm install --save lazyfox-circular-countdown react-native-svg
 
 #after downlaoding the dependencies, please enter this command to linked the dependencies of react-native-svg
 $ react-native link react-native-svg
@@ -101,7 +101,7 @@ export default class App extends Component<Props> {
 
 ## Dependencies
 
-To install this component to your **react-native project**, please just following this instruction bellow.
+This component using react  **[react-native-svg](https://github.com/react-native-community/react-native-svg)**
 
 ## License
 

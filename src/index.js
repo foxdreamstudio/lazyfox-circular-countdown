@@ -26,11 +26,8 @@ class LazyFoxCircularCountDown extends Component {
       strokeWidth:this.props.strokeWidth,
       stroke:this.props.stroke,
       fill:this.props.fill,
-      centerFontSize:this.props.centerFontSize,
-      color:this.props.color,
       tempseconds:this.props.seconds,
       transform: "rotate(-90 "+(( this.props.circleWidth / 2 ))+" "+(( this.props.circleWidth / 2 ))+")",
-      useDecimal:this.props.useDecimal,
       timeLeftPoint:0,
 
       timeSeconds:0,
@@ -123,7 +120,7 @@ class LazyFoxCircularCountDown extends Component {
             {!this.props.children &&
               <View>
                 {this.state.timeSeconds !==0 &&
-                  <Text style={{fontSize: this.state.centerFontSize,color:this.state.color,fontWeight: 'bold'}}>
+                  <Text style={{fontSize: this.props.centerFontSize,color:this.props.color,fontWeight: 'bold'}}>
                     { this.props.isAutoStart && this.props.isMinutes &&
                       `${this.state.timeMinutes.length>1?'':'0'}${this.state.timeMinutes}:${this.state.timeSeconds.length>1?'':'0'}${this.state.timeSeconds}`
                     }
@@ -142,7 +139,7 @@ class LazyFoxCircularCountDown extends Component {
                   </Text>
                 }
                 {this.state.timeSeconds===0 &&
-                  <Text style={{fontSize: this.state.centerFontSize,color:this.state.color,fontWeight: 'bold'}}>
+                  <Text style={{fontSize: this.props.centerFontSize,color:this.props.color,fontWeight: 'bold'}}>
                     {`${this.props.seconds.length<2?'0':''}${this.props.seconds.toFixed(2)}`}
                   </Text>
                 }
@@ -192,12 +189,9 @@ LazyFoxCircularCountDown.defaultProps = {
   secondsLenght:null,
   onTimesUp:()=>null,
   onCounting:()=>null,
-  useDecimal:true,
   isMinutes:false,
   isSeconds:false,
-  delayTime:null,
   isAutoStart:true,
   isShow:true,
-  defaultValue:10,
 };
 export default LazyFoxCircularCountDown;

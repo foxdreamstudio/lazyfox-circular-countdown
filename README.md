@@ -5,6 +5,11 @@
 <!--[![Ridwan Foxdream](https://www.http://foxdreamer.000webhost.com/ridwan)](https://www.http://foxdreamer.000webhost.com/ridwan)-->
 <!--[![license](https://img.shields.io/npm/l/react-native-svg-charts.svg)](https://github.com/foxdreamstudio/lazyfox-circular-countdown/blob/master/LICENSE)-->
 
+## Preview
+this preview from my last project
+
+![lazyfox-circular-countdown](https://github.com/foxdreamstudio/lazyfox-media/blob/master/lazyfox-circular-countdown.png?raw=true)
+
 
 ## Prerequisites
 
@@ -96,6 +101,39 @@ export default class App extends Component<Props> {
     );
   }
 }
+
+```
+
+## defaultProps
+
+So you can add many properties, you can look at the list of defaultprops / properties
+
+```jsx
+// Propeties 
+
+LazyFoxCircularCountDown.defaultProps = {
+  offset: 0,
+  stroke: 0,
+  r: 20,
+  circleWidth:120,
+  strokeWidth:8,
+  fill:"#fff",
+  stroke:"green",
+  backStroke:"#0B2534",
+  centerFontSize:20,
+  color:"#333",
+  seconds:10,
+  secondsLenght:null,
+  onTimesUp:()=>null,
+  onCounting:()=>null,
+  useDecimal:true,
+  isMinutes:false,
+  isSeconds:false,
+  delayTime:null,
+  isAutoStart:true,
+  isShow:true,
+  defaultValue:10,
+};
 
 ```
 

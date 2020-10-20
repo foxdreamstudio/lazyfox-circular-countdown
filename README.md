@@ -5,12 +5,6 @@
 <!--[![Ridwan Foxdream](https://www.http://foxdreamer.000webhost.com/ridwan)](https://www.http://foxdreamer.000webhost.com/ridwan)-->
 <!--[![license](https://img.shields.io/npm/l/react-native-svg-charts.svg)](https://github.com/foxdreamstudio/lazyfox-circular-countdown/blob/master/LICENSE)-->
 
-## Preview
-this preview from my last project
-
-![lazyfox-circular-countdown](https://github.com/foxdreamstudio/lazyfox-media/blob/master/lazyfox-circular-countdown.png?raw=true)
-
-
 ## Prerequisites
 
 This library uses [react-native-svg](https://github.com/react-native-community/react-native-svg) to render this component, Therefore this library needs to be installed **AND** linked into your project to work.
